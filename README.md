@@ -18,7 +18,7 @@ Este é um projeto de lista de tarefas (To-Do List) desenvolvido para praticar c
 
 # 📦 Como executar o projeto
 - Clone o repositório
-git clone https://seu-repositorio-aqui.git
+git clone https://github.com/PietroPonciano/todo-list
 
 - Acesse a pasta do projeto
 cd todo-list

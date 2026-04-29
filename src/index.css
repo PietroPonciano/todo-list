@@ -1,0 +1,23 @@
+:root{
+  --bege: #DFCDB4;
+  --bege-claro: #FBEED3;
+  --bege-escuro: #B0A18F;
+  --marrom: #6B5D4D;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center;     /* centraliza vertical */
+
+  background: var(--bege-claro);
+}
+

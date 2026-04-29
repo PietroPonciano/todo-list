@@ -1,0 +1,67 @@
+/* overlay */
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
+}
+
+/* modal */
+.dialog-content {
+  background: var(--bege-claro);
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* título */
+.dialog-content h2 {
+  color: var(--marrom);
+  margin: 0;
+}
+
+/* input */
+.dialog-content input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--bege-escuro);
+  outline: none;
+
+  background: var(--bege);
+  color: var(--marrom);
+}
+
+/* botões */
+.dialog-content button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* cancelar */
+.dialog-content button:first-of-type {
+  background: var(--bege-escuro);
+  color: white;
+}
+
+/* salvar */
+.dialog-content button:last-of-type {
+  background: var(--marrom);
+  color: white;
+}

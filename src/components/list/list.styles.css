@@ -1,0 +1,85 @@
+/* container da lista */
+.tarefas-todo {
+  background: var(--bege-claro);
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* título */
+.titulo-todo {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: var(--marrom);
+}
+
+/* lista */
+.tarefas-todo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* item */
+.tarefas-todo li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: var(--bege);
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+/* hover */
+.tarefas-todo li:hover {
+  background: var(--bege-escuro);
+}
+
+/* texto */
+.tarefas-todo li span {
+  cursor: pointer;
+  flex: 1;
+  color: var(--marrom);
+}
+
+/* botões */
+.tarefas-todo li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+/* ícones */
+.tarefas-todo li button svg {
+  width: 18px;
+  height: 18px;
+  color: var(--marrom);
+  transition: 0.2s;
+}
+
+/* hover geral */
+.tarefas-todo li button:hover svg {
+  transform: scale(1.1);
+}
+
+/* delete */
+.tarefas-todo li button:first-of-type:hover svg {
+  color: #c0392b;
+}
+
+/* editar */
+.tarefas-todo li button:last-of-type:hover svg {
+  color: #2980b9;
+}
+
+/* tarefa concluída */
+.concluida span {
+  text-decoration: line-through;
+  color: var(--bege-escuro);
+}
